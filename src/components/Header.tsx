@@ -1,10 +1,28 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from '../assets/logoManos.png';
 import ifoodIcon from '../assets/ifood.png';
 
 const Header: React.FC = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 0) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
-        <header className="fixed top-0 w-full bg-white bg-opacity-80 shadow-md z-50">
+        <header className={`fixed top-0 w-full bg-white ${isScrolled ? 'bg-opacity-80' : 'bg-opacity-0'} shadow-md z-50 transition duration-1000`}>
             <div className="container mx-auto flex items-center justify-between p-4">
                 <div className="flex-shrink-0">
                     <img src={logo} alt="Restaurante Logo" width={100} height={100} className="h-12" />
