@@ -4,6 +4,8 @@ import { FaWifi } from "react-icons/fa";
 import { BiAccessibility } from "react-icons/bi";
 import { GiCharging } from "react-icons/gi";
 import { MdOutlineDeck } from "react-icons/md";
+import { TbAirConditioning } from "react-icons/tb";
+import { IoCardSharp } from "react-icons/io5";
 
 const services = [
     { icon: IoLogoNoSmoking, name: 'Proibido Fumar' },
@@ -11,6 +13,8 @@ const services = [
     { icon: BiAccessibility, name: 'Acessibilidade' },
     { icon: GiCharging, name: 'Carregamento de Celular' },
     { icon: MdOutlineDeck, name: 'Deck' },
+    { icon: TbAirConditioning, name: 'Ar-condicionado' },
+    { icon: IoCardSharp, name: 'Cartões Credito/Debito' },
 ];
 
 const Services: React.FC = () => {

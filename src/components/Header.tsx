@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../assets/logoManos.png';
-import ifoodIcon from '../assets/ifood.png';
+import ifoodIcon from '../assets/ifood.svg';
 
 const Header: React.FC = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -23,13 +23,13 @@ const Header: React.FC = () => {
 
     return (
         <header className={`fixed top-0 w-full bg-white ${isScrolled ? 'bg-opacity-80' : 'bg-opacity-0'} shadow-md z-50 transition duration-1000`}>
-            <div className="container mx-auto flex items-center justify-between p-4">
+            <div className="container mx-auto flex items-center justify-between p-1">
                 <div className="flex-shrink-0">
-                    <img src={logo} alt="Restaurante Logo" width={100} height={100} className="h-12" />
+                    <img src={logo} alt="Restaurante Logo" width={200} height={400} />
                 </div>
                 <div className="absolute left-1/2 transform -translate-x-1/2">
                     <a href="https://www.ifood.com.br" target="_blank" rel="noopener noreferrer">
-                        <img src={ifoodIcon} alt="iFood" width={100} height={100} className="h-8" />
+                        <img src={ifoodIcon} alt="iFood" width={100} height={100} className="h-8 transition-transform transform hover:scale-105" />
                     </a>
                 </div>
                 <nav className="flex flex-grow justify-end">
