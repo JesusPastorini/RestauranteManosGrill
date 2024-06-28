@@ -1,7 +1,6 @@
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
-import SpecialDish from './components/SpecialDish';
-import IfoodSection from './components/IfoodSection';
+import SpecialAndIfood from './components/SpecialAndIfood';
 import Gallery from './components/Gallery';
 import Services from './components/Services';
 import Location from './components/Location';
@@ -12,8 +11,7 @@ function App() {
     <main className="flex min-h-screen flex-col">
       <Header />
       <HeroSection />
-      <SpecialDish />
-      <IfoodSection />
+      <SpecialAndIfood />
       <Gallery />
       <Services />
       <Location />
