@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Location: React.FC = () => {
     return (
         <section id="location" className="my-32 bg-white">

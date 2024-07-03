@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import IntroModal from './sections/IntroModal';
 import Header from './sections/Header';
 import HeroSection from './sections/HeroSection';

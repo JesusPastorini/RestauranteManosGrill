@@ -1,4 +1,3 @@
-import React from 'react';
 import { IoLogoNoSmoking } from "react-icons/io";
 import { FaWifi } from "react-icons/fa";
 import { BiAccessibility } from "react-icons/bi";

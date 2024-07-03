@@ -1,4 +1,3 @@
-import React from 'react';
 import bifeImage from '../assets/buffet1.jpg';
 import marmImage from '../assets/marmita2.jpeg';
 import ifoodIcone from '../assets/ifood.svg';

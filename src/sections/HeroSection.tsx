@@ -1,4 +1,3 @@
-import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import heroImage from '../assets/buffet1.jpg';
 
