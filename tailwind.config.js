@@ -7,8 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary-color': '#5C00AA',
-        'secondary-color': '#E923E5'
+        'light-gray-200': '#f3f3f3',
+        orange: require('tailwindcss/colors').orange,
+        lime: {
+          '900': '#3c4708',
+        },
       }
     },
   },
