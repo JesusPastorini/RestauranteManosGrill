@@ -20,7 +20,9 @@ const Footer: React.FC = () => {
                         <br></br>
                         <p>Janela de Comida Rápida:</p>
                         <p>a partir das 11h</p>
-                        <img src={devLogo} alt="Logo Desenvolvedor" className="h-12 mt-8" />
+                        <a href="https://portifolio-mu-one-58.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img src={devLogo} alt="Logo Desenvolvedor" className="h-12 mt-8" />
+                        </a>
                     </div>
 
                     <div className="flex flex-col items-center md:items-end justify-start">

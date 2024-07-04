@@ -21,7 +21,7 @@ const SpecialAndIfood: React.FC = () => {
                     <div className="mt-4 flex items-center">
                         <p className="text-xl">Sua refeição favorita a um clique de distância.</p>
                     </div><br></br>
-                    <a href="https://www.ifood.com.br" target="_blank" rel="noopener noreferrer" className="block mt-4">
+                    <a href="https://www.ifood.com.br/delivery/novo-hamburgo-rs/restaurante-manos-grill-centro/02ddffd4-2424-4f45-9b56-479ad19e4b4b" target="_blank" rel="noopener noreferrer" className="block mt-4">
                         <div className="icon-border">
                             <img src={ifoodIcone} alt="iFood" className="w-32 h-auto" />
                         </div>

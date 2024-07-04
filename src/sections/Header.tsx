@@ -46,7 +46,7 @@ const Header: React.FC = () => {
                         <li><a href="#location" className="text-orange-300 hover:text-gray-50 hover:border-b-2 border-orange-300">Localização</a></li>
                         <li><a href="#faleconosco" className="text-orange-300 hover:text-gray-50 hover:border-b-2 border-orange-300">Fale Conosco</a></li>
                     </ul>
-                    <button className="md:hidden text-orange-300" onClick={handleMenuToggle}>
+                    <button className="md:hidden text-orange-300 border-r border-gray-300 pr-2" onClick={handleMenuToggle}>
                         <FaBars size={24} />
                     </button>
                 </nav>
@@ -54,12 +54,12 @@ const Header: React.FC = () => {
             {isMenuOpen && (
                 <div className="md:hidden bg-lime-900 bg-opacity-80">
                     <ul className="flex flex-col items-center space-y-4 p-4">
-                        <li><a href="#Buffet" className="text-orange-300 hover:text-gray-50">Buffet</a></li>
-                        <li><a href="#services" className="text-orange-300 hover:text-gray-50">Serviços</a></li>
-                        <li><a href="#location" className="text-orange-300 hover:text-gray-50">Localização</a></li>
-                        <li><a href="#faleconosco" className="text-orange-300 hover:text-gray-50">Fale Conosco</a></li>
+                        <li><a href="#Buffet" className="text-orange-300 hover:text-gray-50" onClick={handleMenuToggle}>Buffet</a></li>
+                        <li><a href="#services" className="text-orange-300 hover:text-gray-50" onClick={handleMenuToggle}>Serviços</a></li>
+                        <li><a href="#location" className="text-orange-300 hover:text-gray-50" onClick={handleMenuToggle}>Localização</a></li>
+                        <li><a href="#faleconosco" className="text-orange-300 hover:text-gray-50" onClick={handleMenuToggle}>Fale Conosco</a></li>
                         <li className="mt-4">
-                            <a href="https://www.ifood.com.br/delivery/novo-hamburgo-rs/restaurante-manos-grill-centro/02ddffd4-2424-4f45-9b56-479ad19e4b4b?prato=e46d055d-f4c6-49a2-a267-c3ccfc2dd231" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.ifood.com.br/delivery/novo-hamburgo-rs/restaurante-manos-grill-centro/02ddffd4-2424-4f45-9b56-479ad19e4b4b" target="_blank" rel="noopener noreferrer">
                                 <img src={ifoodIcon} alt="iFood" className="h-8 transition-transform transform hover:scale-105" />
                             </a>
                         </li>
