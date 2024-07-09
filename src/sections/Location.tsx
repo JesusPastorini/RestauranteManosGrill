@@ -1,6 +1,6 @@
 const Location: React.FC = () => {
     return (
-        <section id="location" className="my-32 bg-white">
+        <section id="location" className="my-32 bg-white bg-amber-100">
             <h2 className="text-4xl font-bold text-center mb-4">Localização</h2>
             <p className="mb-4 text-center">Av. Pedro Adams Filho, 5662 - Centro, Novo Hamburgo</p>
             <div className="w-full h-96">

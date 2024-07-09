@@ -30,12 +30,12 @@ const Header: React.FC = () => {
 
     return (
         <header className={`fixed top-0 w-full ${isScrolled ? 'bg-lime-900 bg-opacity-80' : 'bg-opacity-0'} shadow-md z-50 transition duration-1000`}>
-            <div className="container mx-auto flex items-center justify-between">
+            <div className="container mx-auto flex items-center justify-between font-serif font-bold">
                 <div className="flex-shrink-0">
                     <img src={logo} alt="Restaurante Logo" className="w-48 md:w-56" />
                 </div>
                 <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2">
-                    <a href="https://www.ifood.com.br/delivery/novo-hamburgo-rs/restaurante-manos-grill-centro/02ddffd4-2424-4f45-9b56-479ad19e4b4b?prato=e46d055d-f4c6-49a2-a267-c3ccfc2dd231" target="_blank" rel="noopener noreferrer" className="relative group">
+                    <a href="https://www.ifood.com.br/delivery/novo-hamburgo-rs/restaurante-manos-grill-centro/02ddffd4-2424-4f45-9b56-479ad19e4b4b" target="_blank" rel="noopener noreferrer" className="relative group">
                         <img src={ifoodIcon} alt="iFood" className="w-20 h-20 transition-transform transform group-hover:scale-105" />
                         <div className="absolute inset-0 top-9 left-1/2 w-24 h-16 rounded-full border-4 border-orange-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-1/2 -translate-y-1/2"></div>
                     </a>

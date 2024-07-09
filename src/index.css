@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    background-image: url('/fundo7.jpg');
+    background-image: url('/fundo2.jpg');
     background-size: contain;
     /* Ajusta para que a imagem caiba dentro do corpo */
     background-position: center;

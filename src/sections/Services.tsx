@@ -18,8 +18,8 @@ const services = [
 
 const Services: React.FC = () => {
     return (
-        <section id="services" className="container mx-auto my-16 bg-white">
-            <h2 className="text-4xl font-bold text-center mb-8 mt-5">Serviços</h2>
+        <section id="services" className="container mx-auto my-16 bg-amber-100">
+            <h2 className="text-4xl font-serif font-bold text-center mb-8 mt-5">Serviços</h2>
             <div className="flex flex-wrap justify-center gap-8 mb-5">
                 {services.map((service, index) => (
                     <div key={index} className="text-center">

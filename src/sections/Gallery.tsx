@@ -8,7 +8,7 @@ import img1 from '../assets/gal1.jpg';
 import img2 from '../assets/gal2.jpg';
 //import img3 from '../assets/gal3.jpg';
 import img4 from '../assets/gal4.jpg';
-import img5 from '../assets/gal5.jpeg';
+import img5 from '../assets/gal7.jpeg';
 import img6 from '../assets/gal6.jpeg';
 
 const Gallery: React.FC = () => {
@@ -68,8 +68,8 @@ const Gallery: React.FC = () => {
     };
 
     return (
-        <section className="container mx-auto my-16 bg-white">
-            <h2 className="text-4xl font-bold text-center mb-8 mt-5">Galeria de Fotos</h2>
+        <section className="container mx-auto my-16 bg-amber-100">
+            <h2 className="text-4xl font-serif font-bold text-center mb-8 mt-5">Galeria de Fotos</h2>
             <div className="overflow-hidden h-64">
                 <Slider {...settings}>
                     {images.map((image, index) => (
@@ -88,7 +88,7 @@ const Gallery: React.FC = () => {
                     ))}
                 </Slider>
             </div>
-            <div className="mt-2 p-4 bg-gray-100 text-center">
+            <div className="mt-2 p-4 bg-amber-100 text-center">
                 <p className="text-xl">Conheça mais sobre o nosso restaurante e os deliciosos pratos que preparamos especialmente para você.</p>
             </div>
 

@@ -9,24 +9,24 @@ const Footer: React.FC = () => {
                 <footer className="footer flex flex-col md:flex-row justify-between items-start">
                     <div className="flex flex-col items-center md:items-start mb-8 md:mb-0">
                         <img src={logo} alt="Restaurante Logo" width={500} height={600} className="mb-8" />
-                        <p className="text-center md:text-left">© 2024 Restaurante. Todos os direitos reservados.</p>
+                        <p className="text-center md:text-left">© 2024 Mano's Grill. Todos os direitos reservados.</p>
                     </div>
 
-                    <div className="text-left mb-8 md:mb-0 text-white">
-                        <h3 className="text-lg font-bold">Horários de Funcionamento</h3>
-                        <p>Ter a Dom: 12hs – 17hs e 19hs – 21hs</p>
+                    <div className="text-left mb-8 md:mb-0 text-white font-serif font-bold">
+                        <h3 className="text-lg font-bold ">Horários de Funcionamento</h3>
+                        <p>Seg a Sab: 11:30hs – 15hs</p>
                         <br></br>
                         <p>Delivery: Ifood</p>
                         <br></br>
                         <p>Janela de Comida Rápida:</p>
-                        <p>a partir das 11h</p>
+                        <p>a partir das 11:30h</p>
                         <a href="https://portifolio-mu-one-58.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <img src={devLogo} alt="Logo Desenvolvedor" className="h-12 mt-8" />
                         </a>
                     </div>
 
                     <div className="flex flex-col items-center md:items-end justify-start">
-                        <h3 className="text-lg font-bold text-center text-white">Fale Conosco </h3>
+                        <h3 className="text-lg font-serif font-bold text-center text-white">Fale Conosco </h3>
                         <br></br>
                         <div className="flex space-x-4 mt-2">
                             <a href="https://www.facebook.com/rest.manosgrill/?locale=pt_BR" target="_blank" rel="noopener noreferrer">
