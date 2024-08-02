@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 body {
-    background-image: url('/fundo2.jpg');
-    background-size: contain;
-    /* Ajusta para que a imagem caiba dentro do corpo */
-    background-position: center;
-    /* Centraliza a imagem */
+    background-image: url('/fundo6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Faz a imagem de fundo cobrir todo o espaço disponível */
+    background-attachment: fixed;
+    /* Mantém a imagem fixa ao rolar a página */
 }

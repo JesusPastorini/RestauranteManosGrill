@@ -30,13 +30,13 @@ const Footer: React.FC = () => {
                         <br></br>
                         <div className="flex space-x-4 mt-2">
                             <a href="https://www.facebook.com/rest.manosgrill/?locale=pt_BR" target="_blank" rel="noopener noreferrer">
-                                <FaFacebook size={32} className="text-orange-300" />
+                                <FaFacebook size={32} className="text-blue-600" />
                             </a>
                             <a href="https://www.instagram.com/restaurantemanosgrill/" target="_blank" rel="noopener noreferrer">
-                                <FaInstagram size={32} className="text-orange-300" />
+                                <FaInstagram size={32} className="text-pink-500" />
                             </a>
                             <a href="https://api.whatsapp.com/send?phone=%2B555135684494&context=ARAdqdePNYZumfQYCtFscWo720rKsP3XrE-HYyaG78gBE3kFBYh78IFeYu2wdkCNjet0G79VzwgEq96BOt-S6onjZ6A-pDO8PaFUbRdzxmc3c3bD7AahfZqx9Zk9dADhVTib0ctGWn2bRVG53gZerBTXSQ&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwZXh0bgNhZW0CMTAAAR1PgwTB6zRBDQzcY7mF05opw9C8U-Qhqm_mrjlO9ujvh5poGzqX3CSbUS4_aem_w7rh5yCUNM0PXaQWukKBFA" target="_blank" rel="noopener noreferrer">
-                                <FaWhatsapp size={32} className="text-orange-300" />
+                                <FaWhatsapp size={32} className="text-green-500" />
                             </a>
                         </div>
                     </div>
