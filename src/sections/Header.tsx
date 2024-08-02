@@ -58,7 +58,7 @@ const Header: React.FC = () => {
                         <li><a href="#location" className="text-orange-300 hover:text-gray-50 hover:border-b-2 border-orange-300" onClick={handleMenuToggle}>Localização</a></li>
                         <li><a href="#faleconosco" className="text-orange-300 hover:text-gray-50 hover:border-b-2 border-orange-300" onClick={handleMenuToggle}>Fale Conosco</a></li>
                     </ul>
-                    <button className="md:hidden text-orange-300 border-r border-gray-300 pr-2" onClick={handleMenuToggle}>
+                    <button className="md:hidden text-orange-300 border-r border-gray-300 pr-6" onClick={handleMenuToggle}>
                         <FaBars size={35} />
                     </button>
                 </nav>
