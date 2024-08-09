@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# 🍽️ [Restaurante Mano's Grill]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Deploy do Site](https://img.shields.io/badge/🚀-Acessar%20o%20Site-green)](https://lnkd.in/dZcpvUrB)
 
-Currently, two official plugins are available:
+![Imagem do Projeto](src/assents/manosgrill1.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descrição
 
-## Expanding the ESLint configuration
+Bem-vindo ao site do **[Mano's Grill]**! 🍴 Este projeto foi desenvolvido para apresentar os serviços do restaurante de forma direta, elegante e atraente. Nossa proposta é facilitar o acesso às informações essenciais e direcionar o usuário para as redes sociais ou para o iFood, onde podem fazer pedidos diretamente.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🎨 Design e Desenvolvimento
 
-- Configure the top-level `parserOptions` property like this:
+Começei criando todo o design do site no **Figma** para garantir uma interface moderna e user-friendly. A arquitetura foi organizada em camadas simples para facilitar a manutenção e escalabilidade do projeto. Utilizamos as seguintes tecnologias:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **React**
+- **TypeScript**
+- **Vite**
+- **TailwindCSS**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 📱 Responsividade
+
+O site foi cuidadosamente desenvolvido com **responsividade** em mente, garantindo uma experiência fluida tanto em desktops quanto em dispositivos móveis. O design foi adaptado especificamente para a versão celular, mantendo a usabilidade e a estética.
+
+## 🔗 Links Importantes
+
+- **GitHub do Projeto**: [Repositório no GitHub](https://lnkd.in/dgJqz2nv)
+- **Deploy de Teste**: [Acessar o Site](https://lnkd.in/dZcpvUrB)
+
+Se você gostou do projeto, sinta-se à vontade para dar uma ⭐ no repositório!
+
