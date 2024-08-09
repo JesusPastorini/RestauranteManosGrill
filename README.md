@@ -1,12 +1,12 @@
-# 🍽️ [Restaurante Mano's Grill]
+# 🍽️ Restaurante Mano's Grill
 
 [![Deploy do Site](https://img.shields.io/badge/🚀-Acessar%20o%20Site-green)](https://lnkd.in/dZcpvUrB)
 
-![Imagem do Projeto](src/assents/manosgrill1.png)
+![Imagem do Projeto](src/assets/manosgrill1.png)
 
 ## Descrição
 
-Bem-vindo ao site do **[Mano's Grill]**! 🍴 Este projeto foi desenvolvido para apresentar os serviços do restaurante de forma direta, elegante e atraente. Nossa proposta é facilitar o acesso às informações essenciais e direcionar o usuário para as redes sociais ou para o iFood, onde podem fazer pedidos diretamente.
+Bem-vindo ao site do **Mano's Grill**! 🍴 Este projeto foi desenvolvido para apresentar os serviços do restaurante de forma direta, elegante e atraente. Nossa proposta é facilitar o acesso às informações essenciais e direcionar o usuário para as redes sociais ou para o iFood, onde podem fazer pedidos diretamente.
 
 ## 🎨 Design e Desenvolvimento
 
